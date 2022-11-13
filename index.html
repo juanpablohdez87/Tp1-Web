@@ -8,9 +8,9 @@
     <title>AMATEURFILMS! - Productora Audiovisual</title>
 </head>
 <body>
-    <header>
+    <header id="inicio">
         <div class="container">
-            <p class="logo">AMATEURFILMS!</p>
+            <p class="logo"><img src="./imagenes/logoespiral.png" alt="logoespiral" height="20px"> AMATEURFILMS!</p>
             <nav id="main-nav">
                 <ul class="clearfix">
                     <li><a href="./pages/nosotros.html" target="_blank">Nosotros</a></li>
@@ -22,71 +22,88 @@
     </header>
         
     <main>
-    <h1>SOMOS UNA PRODUCTORA DE CONTENIDO AUDIOVISUAL ARGENTINA</h1>
+     <div id="banner"></div>
+     <h1>SOMOS UNA PRODUCTORA DE CONTENIDO AUDIOVISUAL ARGENTINA</h1>
     
-    <h2>Bienvenidos a AMATEURFILMS!</h2>
+     <h2>"Bienvenidos a AMATEURFILMS!"</h2>
     
-    <p>AmateurFilms! es una productora con una trayectoria de más 30 años en el ámbito audiovisual, tanto en cine, TV, documentales como series webs.
+     <p><b>AmateurFilms!</b> es una <i>productora</i> con de más <u>30 años</u> en el ámbito audiovisual, tanto en cine, TV, documentales como series webs.
        <br> Ofrecemos servicios de investigación e innovación tanto en produción como en  postproducón audiovisual.</p>
-        
+    </main>    
        
-    <section id="trabajos-realizados">
+    <section id="trabajosrealizados">
         <div class="conteiner">
           <h2>Trabajos Realizados</h2>
           <div class="box">
-             <h3>25 miradas, 200 minutos (2010)</h3>
-             <img src="./imagenes/25miradas.jpg" width="300">
-             <p>Drama. Comedia | Histórico. Película de episodios</p>
+            <figure>
+             <figcaption><h3>25 miradas, 200 minutos (2010)</h3></figcaption>
+             <img src="./imagenes/25miradas.jpg" alt=film1 height="400">
+             <p class="letrafilms"><em>Drama. Comedia | Histórico. Película de episodios</em></p>
              <a href="https://www.youtube.com/watch?v=o4SK1w1j8n4" target="_blank"><button>Trailer</button></a>
+            </figure>
           </div>
           <div class="box">
-             <h3>Cuatreros (2016)</h3>
-             <img src="./imagenes/cuatreros.jpg" width="300">
-             <p>Documental | Cine experimental </p>
+            <figure>
+             <figcaption><h3>Cuatreros (2016)</h3></figcaption>
+             <img src="./imagenes/cuatreros.jpg" alt=film2 height="400">
+             <p class="letrafilms"><em>Documental | Cine experimental</em> </p>
              <a href="https://www.youtube.com/watch?v=V68-DrC7sBE" target="_blank"><button>Trailer</button></a>
+            </figure>
           </div>
           <div class="box">
-             <h3>Fase 7</h3>
-             <img src="./imagenes/fase7.jpg" width="300">
-             <p>Comedia. Acción. Thriller | Pandemias. Sátira </p>
+            <figure>
+             <figcaption><h3>Fase 7 (2010)</h3></figcaption>
+             <img src="./imagenes/fase7.jpg" alt=film3 height="400">
+             <p class="letrafilms"><em>Comedia. Acción. Thriller | Pandemias. Sátira</em></p>
              <a href="https://www.youtube.com/watch?v=1ywON0BI454" target="_blank"><button>Trailer</button></a>
+            </figure>
           </div>
           <div class="box">
-             <h3>El último verano de la Boyita </h3>
-             <img src="./imagenes/verano.jpg" width="300">
-             <p>Drama | Infancia. Amistad</p>
+            <figure>
+             <figcaption><h3>El último verano de la Boyita (2009) </h3></figcaption>
+             <img src="./imagenes/verano.jpg" alt=film4 height="400">
+             <p class="letrafilms"><em>Drama | Infancia. Amistad</em></p>
              <a href="https://www.youtube.com/watch?v=t1lCYl238gU" target="_blank"><button>Trailer</button></a>
+            </figure>
           </div>
         </div>
     </section>
-       
-    <hr>
-    <h1>Contactanos por aquí</h1> 
-    <br>
-    <P>Para consultas escribenos a <a href="mailto:amateurfims123@gmail.com">amateurfilms123@gmail.com</a></P>
-        <form>
-        <label for="nombre">Nombre</label>
-        <input type="text" id="nombre" name="nombre">
-        <br>
-        <label for="email">Correo electrónico</label>
-        <input type="email" id="email" name="email">
-        <br>
-        <label for="asunto">Asunto</label>
-        <input type="text" id="asunto" name="asunto">
-        <br>
-        <label for="mensaje">Mensaje</label> 
-        <textarea cols="60" rows="10" id="mensaje" name="mensaje" placeholder="Ingrese mensaje aqui."></textarea>
-        <br>
-        <input type="submit" value="Enviar">
-        <input type="reset" value="Borrar campos">
-    </form>
-    <br>
-    <hr>
-    <br>
-    <footer>
-        <address>Buenos Aires - Argentina ::: &copy; 2022</address>
-        <p><a href="www.twitter.com/amateurfilms123" target="-black">Twitter</a></p>
-        
+  
+    
+    
+    <div class:="contactos"> 
+      <h1>Contactanos</h1> 
+      <br>
+      <P>Para consultas escribenos a <a href="mailto:amateurfims123@gmail.com">amateurfilms123@gmail.com</a></P>
+    </div> 
+        <form action="#" method="post">
+          <ul>
+           <li>
+             <label for="nombre">Nombre:</label>
+             <input type="text" id="nombre" name="nombre">
+           </li>
+           <li>
+             <label for="email">Correo electrónico:</label>
+             <input type="email" id="email" name="email"></li>
+           <li>
+             <label for="asunto">Asunto:</label>
+             <input type="text" id="asunto" name="asunto"></li>
+           <li>
+             <label for="mensaje">Mensaje:</label> 
+             <textarea cols="60" rows="10" id="mensaje" name="mensaje" placeholder="Ingrese mensaje aqui."></textarea>
+           </li>
+           <li class="boton-enviar">
+             <button type="submit">Enviar mensaje</button>                   
+           </li>
+          </ul>
+        </form>
+     <br>
+     <footer>
+     <div class="piefinal">
+        <address>Buenos Aires - Argentina</address>
+        <small><i>&copy; 2022 AmateurFilms!</i><a href="https://twitter.com/" target="-black">Twitter</a></small>
+        <h3><a href="#inicio">Volver al Inicio</a></h3>
+     </div>
     </footer>
 
    
