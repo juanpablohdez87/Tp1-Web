@@ -1,12 +1,12 @@
     
 body {
-    /*para sacar el espacio de lo laterales de la pagina */
+    /*para sacar el espacio de los laterales de las páginas */
     margin: 0em;
 }
 body
 {
      font-family:Verdana, Geneva, Tahoma, sans-serif ;
-     background: rgb(240, 240, 240)
+     background: rgb(247, 245, 245)
      
 }
 
@@ -70,6 +70,8 @@ header .logo {
     font-size: 20px;
     
 }
+
+/* barra de navegacion */
 #main-nav {
        background: rgb(194, 194, 194)
 }
@@ -120,12 +122,6 @@ header .logo {
 
 }
 
-footer {
-    text-align: left;
-    margin-bottom: 2em;
-    margin-left: 0em;
-    
-}
 
 form {
     /*  formato contenedor de form + borde*/
@@ -179,9 +175,12 @@ textarea {
 
 
 /*  footer */
-.piefinal {
+.piedepagina {
     background-color: rgb(194, 194, 194);
     padding-bottom: 2em;
+    padding-top: 1em;
+   
+    
 }
 
 address { 
@@ -201,4 +200,22 @@ h3 a {
 
 h3 a:hover {
     color: rgb(78, 10, 10);
+}
+
+/* nosotros.html */
+.imagen-nosotros {
+    text-align: center;
+    padding: 4em;
+}
+
+
+/* sucursal.html */
+.sucursal-mapa {
+ text-align: center;
+ padding: 0em;
+ margin: 6em;
+ 
+}
+#sucursal {
+    padding-top: 1em;
 }
