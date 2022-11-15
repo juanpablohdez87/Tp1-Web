@@ -268,7 +268,7 @@ h3 a:hover {
     /* formulario responsive */
     form {
         /*  formato contenedor de form + borde*/
-        margin: 3em;
+        margin: 1.5em;
         width: 300px;
         height: 500px;
         padding: 1.5em;
@@ -314,19 +314,19 @@ h3 a:hover {
     /* nosotros.html */
     .imagen-nosotros {
     padding: 1em;
-    width: 25em;
+    width: 23em;
     padding-top: 2em;
     padding-bottom: 2em;
-
-}    
+    
+    }    
     .sucursal-mapa  {
       margin: 0em;
       padding-top: 3em;
       padding-bottom: 2em;
     
-}  
+    }  
     .sucursal-mapa iframe {
-        width: 25em;
+        width: 22em;
         height: 25em;
     }
 }
